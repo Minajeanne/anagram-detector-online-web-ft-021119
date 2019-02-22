@@ -10,6 +10,7 @@ class Anagram
     array.each do |word|
       word.split("").sort == word.split("").reverse.sort
    end
+  end
       
 end
 
