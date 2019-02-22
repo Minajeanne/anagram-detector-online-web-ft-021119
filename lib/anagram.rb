@@ -13,4 +13,4 @@ class Anagram
       
 end
 
-#  x = x.split("") ==  x.sort == y.sort
+# x = x.split("") ==  x.sort == y.sort
