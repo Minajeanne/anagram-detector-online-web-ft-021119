@@ -3,14 +3,15 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @word = word.split(//).sort
+    @word = word
   end
   
   def match(array)
     array.each do |word|
-      word.split("").sort == array.split("").sort
+      word.split("").sort == @word.split("").sort
    end
   end
       
 end
 
+# .split(//).sort
